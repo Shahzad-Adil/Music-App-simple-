@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingTop="40dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tAtv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Track: Sab Maya Hai"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tAtv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Attaullah Esakhelvi"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/tAiv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="playA"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/tAiv2"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <ImageView
+                android:id="@+id/tAiv3"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <ImageView
+                android:id="@+id/tAiv4"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--    ...................................................................-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tBtv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Track: G.O.A.T(Official Music)"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tBtv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Diljit Singh"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/tBiv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="playB"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/tBiv2"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <ImageView
+                android:id="@+id/tBiv3"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <ImageView
+                android:id="@+id/tBiv4"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--    ...................................................................-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tCtv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Track: Jalan OST_ARY Digital "
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tCtv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Rahat Fateh Ali Khan"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/tCiv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="playC"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/tCiv2"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <ImageView
+                android:id="@+id/tCiv3"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <ImageView
+                android:id="@+id/tCiv4"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--    ...................................................................-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tDtv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Track: KHAANI Full Song_HAR_PALL_GEO"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tDtv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Rahat Fateh Ali Khan"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/tDiv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="playD"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/tDiv2"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <ImageView
+                android:id="@+id/tDiv3"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <ImageView
+                android:id="@+id/tDiv4"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--    ...................................................................-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tEtv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Track: Koe Chaand Rakh_ARY_Digital"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tEtv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Rahat Fateh Ali Khan"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/tEiv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="playE"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/tEiv2"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <ImageView
+                android:id="@+id/tEiv3"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <ImageView
+                android:id="@+id/tEiv4"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--    ...................................................................-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tFtv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Track: Greenlights"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tFtv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Krewella"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/tFiv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="playF"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/tFiv2"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <ImageView
+                android:id="@+id/tFiv3"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+
+            <ImageView
+                android:id="@+id/tFiv4"
+                android:layout_width="50dp"
+                android:layout_height="3dp"
+                app:srcCompat="@android:drawable/bottom_bar" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
